@@ -33,11 +33,9 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="FirstName"
+            android:hint="First Name"
             android:textColorHint="#7A7A7A"
             app:boxStrokeColor="#61305D">
-
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edtfirstname"
                 android:layout_width="match_parent"

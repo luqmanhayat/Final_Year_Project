@@ -30,9 +30,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-/**
- * A simple {@link Fragment} subclass.
- */
+
 public class SignInFragment extends Fragment {
     private TextView accestosignup;
     private LinearLayout parentframlayout;
@@ -117,8 +115,6 @@ public class SignInFragment extends Fragment {
             }
         });
     }
-
-
     private void setFragment(Fragment fragment) {
         FragmentTransaction fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
         fragmentTransaction.setCustomAnimations(R.anim.slide_from_right,R.anim.slide_out_from_left);

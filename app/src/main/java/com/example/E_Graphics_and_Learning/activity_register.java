@@ -9,19 +9,19 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 public class activity_register extends AppCompatActivity {
-    LinearLayout framelayout;
+    LinearLayout fragmentlayout;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        framelayout = findViewById(R.id.register_layout);
-        setFragment(new SignInFragment());
+        fragmentlayout = findViewById(R.id.register_layout);
+        setFragment(new wlcmFragment());
     }
     private void setFragment(Fragment fragment) {
         FragmentTransaction fragmentTransaction=getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.replace(framelayout.getId(),fragment);
+        fragmentTransaction.replace(fragmentlayout.getId(),fragment);
         fragmentTransaction.commit();
     }
 }

@@ -79,7 +79,11 @@
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/editor/src/main/res/drawable/rounded_border_text_view.xml" value="0.1365" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/editor/src/main/res/layout/activity_edit_image.xml" value="0.12604166666666666" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/editor/src/main/res/layout/add_text_dialog.xml" value="0.12604166666666666" />
+        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/drawable-xhdpi/ic_yellow_error.xml" value="0.1945" />
+        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/drawable/ic_logo.xml" value="0.1945" />
+        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/drawable/ic_welcome_logo.xml" value="0.1945" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/drawable/spalash_screen_bg.xml" value="0.187" />
+        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/drawable/stylelogin.xml" value="0.1945" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_bottom_menu.xml" value="0.27291666666666664" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_courses.xml" value="0.27291666666666664" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_custom_order.xml" value="0.27291666666666664" />
@@ -89,17 +93,20 @@
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_home_page.xml" value="0.22" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_learn_graphics_and_animation_page.xml" value="0.27291666666666664" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_log_in.xml" value="0.25" />
+        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_login.xml" value="0.23703703703703705" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_marketing_nd_ad_gd.xml" value="0.27291666666666664" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_motion_graphic_design_page.xml" value="0.27291666666666664" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_register.xml" value="0.27291666666666664" />
-        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_sign_up.xml" value="0.20555555555555555" />
+        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_templates_page.xml" value="0.20683760683760682" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_visual_identity_gd.xml" value="0.27291666666666664" />
-        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_welcome.xml" value="0.27291666666666664" />
+        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/activity_welcome.xml" value="0.16" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/editor.xml" value="0.27291666666666664" />
         <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/fragment_sign_in.xml" value="0.33" />
-        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
+        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/fragment_sign_up.xml" value="0.27291666666666664" />
+        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/fragment_welcom.xml" value="0.23703703703703705" />
+        <entry key="..\:/MSc computer science/Final Year Project/Android_Project_By_Luqman_Zartasha_Hina/Final_Year_Project/app/src/main/res/layout/fragment_wlcm.xml" value="0.23703703703703705" />
       </map>
     </option>
   </component>

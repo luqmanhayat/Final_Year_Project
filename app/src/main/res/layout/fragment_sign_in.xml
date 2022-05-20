@@ -27,7 +27,6 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:hint="Email"
             android:textColorHint="#7A7A7A"
             app:boxStrokeColor="#61305D">
@@ -58,19 +57,17 @@
                 android:layout_height="wrap_content"
                 android:textColor="#3A3A3A"
                 app:errorEnabled="true">
-
             </com.google.android.material.textfield.TextInputEditText>
-            <TextView
-                android:id="@+id/btn_forget"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:gravity="right"
-                android:textColor="#61305D"
-                android:text="Forget password"
-                android:textSize="20dp" />
         </com.google.android.material.textfield.TextInputLayout>
-
+        <TextView
+            android:id="@+id/btn_forget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:textColor="#61305D"
+            android:text="Forget password"
+            android:textSize="20dp" />
         <Button
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
@@ -78,7 +75,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:backgroundTint="#5061305D"
-            android:visibility="visible"
+            android:enabled="false"
             android:onClick="confirmInput"
             android:text="Log In"
             android:textColor="#50ffffff"
@@ -107,6 +104,7 @@
                 android:textSize="20dp" />
         </LinearLayout>
     </LinearLayout>
+
     <ProgressBar
         android:id="@+id/signin_progressBar"
         style="?android:attr/progressBarStyle"

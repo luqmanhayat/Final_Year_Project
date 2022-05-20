@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".wlcmFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="WELCOME"
+            android:textSize="65dp"
+            android:textColor="#61305D"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/archivo_narrow"
+            android:text="Grow Your Business"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/archivo_narrow"
+            android:text="We Help you to grow your business through online services"
+            android:textSize="15dp"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_loginwlcm"
+            android:text="LOG IN"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_signupwlcm"
+            android:layout_marginLeft="10dp"
+            android:text="Sign up"
+            android:padding="15dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

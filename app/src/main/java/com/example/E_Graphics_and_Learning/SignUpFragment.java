@@ -302,9 +302,7 @@ public class SignUpFragment extends Fragment {
             }
         }else{
             email.setError("Invalid Email!", yellowerror);
-
         }
-
     }
 }
 

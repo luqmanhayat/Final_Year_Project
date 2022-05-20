@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635471158070",
+    "project_id": "e-graphics-and-learning-70e8f",
+    "storage_bucket": "e-graphics-and-learning-70e8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635471158070:android:806e6bc919a41f036d3197",
+        "android_client_info": {
+          "package_name": "com.example.E_Graphics_and_Learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635471158070-pvg96ij0g1pq6bef2fph959e0ki8nvmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBywECs9-y8OpyHM-RigRq7kXvncxF4xdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635471158070-pvg96ij0g1pq6bef2fph959e0ki8nvmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

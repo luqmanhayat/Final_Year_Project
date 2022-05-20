@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Learn_Graphics_and_Animation_Page">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E4E4E4"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:src="@drawable/learning_banner"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:background="@drawable/home_elements"
+                    android:backgroundTint="#ffffff"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/img_graphics"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/home_module_style"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="left|center"
+                        android:src="@drawable/gd_course"
+                        android:text="Graphic Designing"
+                        android:textColor="#515151" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title_C_GD"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="#ffffff"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:gravity="left|center"
+                            android:text="Graphic Designing
+                            Course"
+                            android:textColor="#515151"
+                            android:textSize="25dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/graphic_discription"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:backgroundTint="#ffffff"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Graphic design allows you to make freedom and creativity comes variety and this makes things fun and sharpens your skills in a variety of visual styles."
+                                android:textColor="#707070"
+                                android:textSize="15sp"
+                                android:textStyle="normal" />
+
+                            <Button
+                                android:id="@+id/btn_graphics"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="#61305D"
+                                android:text="Start Course"
+                                app:cornerRadius="5dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:background="@drawable/home_elements"
+                    android:backgroundTint="#ffffff"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_motion_graphics"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/home_module_style"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="left|center"
+                        android:src="@drawable/mgd_course"
+                        android:text="Graphic Designing"
+                        android:textColor="#515151" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title_C_MG"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="#ffffff"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:gravity="left|center"
+                            android:text="Motion Graphic
+                            Course"
+                            android:textColor="#515151"
+                            android:textSize="25dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/motion_graphic_discription"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:backgroundTint="#ffffff"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Designers need to begin thinking about such moments in an interaction of the design process.Motion design helps create easy to use, enjoyable user interfaces."
+                                android:textColor="#707070"
+                                android:textSize="15sp"
+                                android:textStyle="normal" />
+
+                            <Button
+                                android:id="@+id/btn_motion_graphics"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="#61305D"
+                                android:text="Start Course"
+                                app:cornerRadius="5dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:background="@drawable/home_elements"
+                    android:backgroundTint="#ffffff"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_illustrator"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/home_module_style"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="left|center"
+                        android:src="@drawable/illustrator"
+                        android:text="Graphic Designing"
+                        android:textColor="#515151" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title_C_illustrator"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="#ffffff"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:gravity="left|center"
+                            android:text="Illustrator Course"
+                            android:textColor="#515151"
+                            android:textSize="25dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/illustrator_discription"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:backgroundTint="#ffffff"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Designers need to begin thinking about such moments in an interaction of the design process.Motion design helps create easy to use, enjoyable user interfaces."
+                                android:textColor="#707070"
+                                android:textSize="15sp"
+                                android:textStyle="normal" />
+
+                            <Button
+                                android:id="@+id/btn_illustrator"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="#61305D"
+                                android:text="Start Course"
+                                app:cornerRadius="5dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:background="@drawable/home_elements"
+                    android:backgroundTint="#ffffff"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_ps"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/home_module_style"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="left|center"
+                        android:src="@drawable/pshop"
+                        android:text="Graphic Designing"
+                        android:textColor="#515151" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title_C_ps"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="#ffffff"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:gravity="left|center"
+                            android:text="Photoshop Course"
+                            android:textColor="#515151"
+                            android:textSize="25dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/ps_discription"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:backgroundTint="#ffffff"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Designers need to begin thinking about such moments in an interaction of the design process.Motion design helps create easy to use, enjoyable user interfaces."
+                                android:textColor="#707070"
+                                android:textSize="15sp"
+                                android:textStyle="normal" />
+
+                            <Button
+                                android:id="@+id/btn_ps"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="#61305D"
+                                android:text="Start Course"
+                                app:cornerRadius="5dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Final_Year_Project" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#61305D</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#F6B679</item>
+        <item name="colorSecondaryVariant">#ffffff</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#61305D</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

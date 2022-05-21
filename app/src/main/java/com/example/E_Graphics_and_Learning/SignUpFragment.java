@@ -238,13 +238,10 @@ public class SignUpFragment extends Fragment {
     private void checkEmailAndPassward() {
         Drawable yellowerror = getResources().getDrawable(R.drawable.ic_yellow_error);
         yellowerror.setBounds(0,0,yellowerror.getIntrinsicWidth(),yellowerror.getIntrinsicHeight());
-
         String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+.[a-z]+";
         if(email.getText().toString().matches(emailPattern)){
             if (passward.getText().toString().equals(confirmPassward.getText().toString())){
-
                 progressBar.setVisibility(View.VISIBLE);
-
                 buttonSignup.setEnabled(false);
                 buttonSignup.setTextColor(Color.argb(50, 255,255,255));
                 buttonSignup.setBackgroundTintList(ColorStateList.valueOf(Color.argb(50,255,255,255)));

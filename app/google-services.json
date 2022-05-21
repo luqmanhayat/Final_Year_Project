@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "635471158070",
+    "firebase_url": "https://e-graphics-and-learning-70e8f-default-rtdb.firebaseio.com",
     "project_id": "e-graphics-and-learning-70e8f",
     "storage_bucket": "e-graphics-and-learning-70e8f.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "635471158070-nmo4dg1kbpfm3qhs2e3e9bise5ofmgv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.E_Graphics_and_Learning",
+            "certificate_hash": "5ff6c8459e40f4b03d30dc4fd7babb552885fbfc"
+          }
+        },
         {
           "client_id": "635471158070-pvg96ij0g1pq6bef2fph959e0ki8nvmk.apps.googleusercontent.com",
           "client_type": 3

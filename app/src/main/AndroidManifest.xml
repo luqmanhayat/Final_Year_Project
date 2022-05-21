@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Final_Year_Project"
         tools:targetApi="m">
         <activity
+            android:name=".newactivity"
+            android:exported="false" />
+        <activity
             android:name=".activity_register"
             android:exported="false" />
         <activity
